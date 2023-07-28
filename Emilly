@@ -1,0 +1,81 @@
+import { NextPage } from 'next'
+import PersonalProfile from '../components/PersonalProfile';
+import Card from '../components/Card';
+
+interface Props {}
+
+const Emilly: NextPage<Props> = ({}) => {
+
+  const labels: Label[] = [
+    {
+      title: "Contact",
+      icons: [
+        {
+          icon: "https://img.freepik.com/icones-gratis/linkedin_318-187585.jpg",
+          href: "https://www.linkedin.com/in/emillysug/",
+        },
+        {
+          icon: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+          href: "https://github.com/Emillyzinha",
+        },
+        {
+          icon: "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png",
+          href: "https://www.kaggle.com/emillysantos",
+        },
+      ],
+    },
+    {
+      title: "Programming Languages",
+      icons: [
+        {
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+          href: "https://www.python.org/",
+        },
+        {
+          icon: "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+          href: "https://github.com/MachareteL",
+        },
+      ],
+    },
+    {
+      title: "Library",
+      icons: [
+        {
+          icon: "https://img2.gratispng.com/20180817/ysc/kisspng-logo-scikit-learn-python-github-portable-network-g-go-to-image-page-5b77997b36f4f5.3677823415345647312251.jpg",
+          href: "https://scikit-learn.org/stable/",
+        },
+        {
+          icon: "https://a.fsdn.com/allura/s/openpyxl/icon?8d3a8249a75894ec1de16e02aa088b0d72d299d84940f1b5d53689e918ed25a7?&w=148",
+          href: "https://openpyxl.readthedocs.io/en/stable/",
+        },
+        {
+          icon: "https://me315-unicamp.github.io/aulas/imgs_aula11/pandas.png",
+          href: "https://pandas.pydata.org/",
+        },
+      ],
+    },
+  ];
+
+  const projetos = ["Apprentice Management", "CorporateWiki", "Bancada Móvel para Eventos Híbridos"];
+  const curiosities = ["I already tried to write a book", "Child psychologist"];
+  const formation = ["E.E. Carlos Gomes", "SENAI", "Unimetrocamp - Ciência da Computação"];
+  const hobbies = ["Read", "Sitcom", "Cook"];
+
+  return (
+    <PersonalProfile
+      image="https://github.com/Emillyzinha.png"
+      description="I’m 18 years old and live in Campinas"
+      introduction="Hi! I’m Emilly Santos"
+      labels={labels}>
+
+        <Card title="Projects" list={projetos}/>
+        <Card title="Curiosities" list={curiosities}/>
+        <Card title="Formation" list={formation}/>
+        <Card title="Hobbies" list={hobbies}/>
+        
+      </PersonalProfile>
+
+  )
+}
+
+export default Emilly
