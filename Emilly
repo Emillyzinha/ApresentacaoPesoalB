@@ -8,7 +8,7 @@ const Emilly: NextPage<Props> = ({}) => {
 
   const labels: Label[] = [
     {
-      title: "Contact",
+      title: "Contato",
       icons: [
         {
           icon: "https://img.freepik.com/icones-gratis/linkedin_318-187585.jpg",
@@ -25,7 +25,7 @@ const Emilly: NextPage<Props> = ({}) => {
       ],
     },
     {
-      title: "Programming Languages",
+      title: "Linguagens de Programação",
       icons: [
         {
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
@@ -38,7 +38,7 @@ const Emilly: NextPage<Props> = ({}) => {
       ],
     },
     {
-      title: "Library",
+      title: "Bibliotecas",
       icons: [
         {
           icon: "https://img2.gratispng.com/20180817/ysc/kisspng-logo-scikit-learn-python-github-portable-network-g-go-to-image-page-5b77997b36f4f5.3677823415345647312251.jpg",
@@ -57,20 +57,20 @@ const Emilly: NextPage<Props> = ({}) => {
   ];
 
   const projetos = ["Apprentice Management", "CorporateWiki", "Bancada Móvel para Eventos Híbridos"];
-  const curiosities = ["I already tried to write a book", "Child psychologist"];
+  const curiosities = ["Já tentei escrever um livro", "Psicóloga infantil"];
   const formation = ["E.E. Carlos Gomes", "SENAI", "Unimetrocamp - Ciência da Computação"];
-  const hobbies = ["Read", "Sitcom", "Cook"];
+  const hobbies = ["Ler", "Assistir sitcom", "Cozinhar"];
 
   return (
     <PersonalProfile
       image="https://github.com/Emillyzinha.png"
-      description="I’m 18 years old and live in Campinas"
-      introduction="Hi! I’m Emilly Santos"
+      description="Tenho 18 anos e moro em Campinas"
+      introduction="Oi! Sou a Emilly Santos"
       labels={labels}>
 
-        <Card title="Projects" list={projetos}/>
-        <Card title="Curiosities" list={curiosities}/>
-        <Card title="Formation" list={formation}/>
+        <Card title="Projetos" list={projetos}/>
+        <Card title="Curiosidades" list={curiosities}/>
+        <Card title="Formação" list={formation}/>
         <Card title="Hobbies" list={hobbies}/>
         
       </PersonalProfile>
