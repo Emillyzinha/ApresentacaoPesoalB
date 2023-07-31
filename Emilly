@@ -11,11 +11,11 @@ const Emilly: NextPage<Props> = ({}) => {
       title: "Contato",
       icons: [
         {
-          icon: "https://img.freepik.com/icones-gratis/linkedin_318-187585.jpg",
+          icon: "https://www.flaticon.com/br/icone-gratis/linkedin_145807?term=linkedin&page=1&position=2&origin=tag&related_id=145807",
           href: "https://www.linkedin.com/in/emillysug/",
         },
         {
-          icon: "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+          icon: "https://www.flaticon.com/br/icone-gratis/github_733609?term=github&page=1&position=3&origin=search&related_id=733609",
           href: "https://github.com/Emillyzinha",
         },
         {
