@@ -60,6 +60,10 @@ const Emilly: NextPage<Props> = ({}) => {
           icon: "https://cdn-icons-png.flaticon.com/512/1260/1260667.png",
           href: "https://react.dev/",
         },
+        {
+          icon: "https://www.flaticon.com/br/icone-gratis/armazenamento-de-banco-de-dados_5732837?term=banco+de+dados&page=1&position=3&origin=search&related_id=5732837",
+          href: "https://www.mysql.com/",
+        },
       ],
     },
   ];
