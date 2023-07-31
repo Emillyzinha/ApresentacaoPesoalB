@@ -11,7 +11,7 @@ const Emilly: NextPage<Props> = ({}) => {
       title: "Contato",
       icons: [
         {
-          icon: "https://www.flaticon.com/br/icone-gratis/linkedin_145807?term=linkedin&page=1&position=2&origin=tag&related_id=145807",
+          icon: "https://www.flaticon.com/br/icone-gratis/linkedin_1384014?term=linkedin&page=1&position=1&origin=search&related_id=1384014",
           href: "https://www.linkedin.com/in/emillysug/",
         },
         {
