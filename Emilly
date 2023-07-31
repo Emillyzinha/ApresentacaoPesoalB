@@ -70,7 +70,7 @@ const Emilly: NextPage<Props> = ({}) => {
 
   const projetos = ["Apprentice Management", "CorporateWiki", "Bancada Móvel para Eventos Híbridos"];
   const curiosities = ["Já tentei escrever um livro", "Psicóloga infantil"];
-  const formation = ["E.E. Carlos Gomes", "Curso Administrativo - Patrulheiros",  "SENAI", "Unimetrocamp - Ciência da Computação"];
+  const formation = ["E.E. Carlos Gomes", "Curso Administrativo - Patrulheiros",  "SENAI", "Ciência da Computação - Unimetrocamp"];
   const hobbies = ["Ler", "Assistir sitcom", "Cozinhar"];
 
   return (
